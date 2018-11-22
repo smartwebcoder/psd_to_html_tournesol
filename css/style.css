@@ -1,0 +1,161 @@
+.header{
+    background: url("../img/Tournesol_final.jpg");
+}
+
+@font-face {
+    font-family: 'Roboto-slab-bold';
+    src: url('../font/roboto-slab-bold.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto-regular';
+    src: url('../font/roboto-regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto-bold';
+    src: url('../font/roboto-bold.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto-medium';
+    src: url('../font/roboto-medium.ttf');
+}
+
+.font-robotoslab-bold{
+    font-family: 'Roboto-slab-bold';
+}
+.font-roboto-bold{
+    font-family: 'Roboto-bold';
+}
+
+
+.header
+{
+    height: 675px;
+}
+
+nav .container
+{
+    margin-top: 25px;
+}
+
+.highlights
+{
+    background-color: white;    
+    border-radius: 20px;
+}
+.highlights a{
+    color: #398ACD !important;
+    padding: 8px 20px !important;
+}
+nav ul li a{
+    color: white !important;
+    font-size: 15px;
+}
+
+.btn-hire
+{
+    border-radius: 30px; 
+    background: #28CE74; 
+    padding: 15px 0px;
+}
+.btn-hire-white
+{
+    border-radius: 50px;
+    background: #ffffff;
+    padding: 15px 40px;
+    border-color: gray;
+    -webkit-text-fill-color: #398ACD;
+    margin: 20px 0px;
+}
+
+.row-margin
+{
+    margin-top: 50px;
+}
+
+.align-work
+{
+    text-align: center;
+}
+
+.number-format
+{
+    font-size: 72px;
+    color: #398AC4;
+}
+
+.num-sen
+{
+    font-size: 20px;
+}
+
+.circle-back
+{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+}
+.circle-back::before
+{
+    position: absolute;
+    content: " ";
+    border-radius: 50%;
+    background-color: #ffffff;
+    width: 80px;
+    height: 80px;
+    opacity: 0.2;
+    z-index: inherit;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.circle-back:after {
+    content: " ";
+    position: absolute;
+    border-radius: 50%;
+    background-color: #ffffff;
+    width: 50px;
+    height: 50px;
+    opacity: 0.3;
+    top: 15px;
+    left: 15px;
+    z-index: 2;
+}
+.rating
+{
+    margin: -60px 0 40px 75px;
+}
+.ti-angle-down
+{
+    font-size: 28px;
+    color: white;
+    /* background: #DCE4E7;
+    border-radius: 25px;
+    padding: 5px;
+    color: white; */
+}
+.arrow-span
+{
+    background: #DCE4E7;
+    border-radius: 25px;
+    padding: 20px 7px 1px 8px;
+}
+.tech-title
+{
+    display: inline-block;
+    margin-left: 8%;
+    vertical-align: middle;
+    margin-top: 12px;
+}
+.tech-title p{
+    margin-top: 8px;
+}
+.hr-rate
+{
+    padding: 35px 0px;
+}
+
+  

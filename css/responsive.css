@@ -1,0 +1,36 @@
+@media (min-width: 576px) {
+    .logo {
+        max-width: 75%;
+    }
+    .tech-img { text-align: center; }
+    .tech-img img {
+        display: inline-block;
+    }
+    .email-box {
+        margin-top: 40px;
+    }
+}
+  
+@media (min-width: 768px) {
+    .logo {
+        max-width: 75%;
+    }
+    .tech-img img {
+        float: right;
+    }
+}
+  
+@media (min-width: 992px) {
+    .logo {
+        max-width: 100%;
+    }
+    .header .main
+    {
+        margin-top: 135px;
+    }
+}
+@media (min-width: 1200px) {
+    .email-box {
+        margin-top: 75px;
+    }
+}
