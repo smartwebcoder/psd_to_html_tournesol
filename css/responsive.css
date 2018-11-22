@@ -13,12 +13,7 @@
     {
         margin-top: 50px;
     }
-    .tech-title
-    {
-        text-align: center;
-        margin-top: 30px;
-    }
-    
+        
     .main h1
     {
         font-size: 48px;
@@ -27,6 +22,7 @@
     {
         height: 675px;
     }
+    
 }
   
 @media (min-width: 768px) {
@@ -49,6 +45,19 @@
         text-align: left;
         margin-left: 8%;
         margin-top: 0px;
+    }
+    .main .btn-hire
+    {
+        margin-left: 20px;
+    }
+    .middle-bar .btn-hire
+    {
+        margin-top: 0px;
+    }
+    .recruit
+    {
+        margin-left: 20px;
+        
     }
 }
   
@@ -73,6 +82,12 @@
     }
     .tech-title p{
         margin-top: 8px;
+    }
+    .recruit
+    {
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 30px;
     }
 }
 @media (min-width: 1200px) {
