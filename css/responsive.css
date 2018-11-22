@@ -9,6 +9,24 @@
     .email-box {
         margin-top: 40px;
     }
+    .header .main
+    {
+        margin-top: 50px;
+    }
+    .tech-title
+    {
+        text-align: center;
+        margin-top: 30px;
+    }
+    
+    .main h1
+    {
+        font-size: 48px;
+    }
+    .header
+    {
+        height: 675px;
+    }
 }
   
 @media (min-width: 768px) {
@@ -17,6 +35,20 @@
     }
     .tech-img img {
         float: right;
+    }
+    .header .main
+    {
+        margin-top: 135px;
+    }
+    .main h1
+    {
+        font-size: 58px;
+    }
+    .tech-title
+    {
+        text-align: left;
+        margin-left: 8%;
+        margin-top: 0px;
     }
 }
   
@@ -27,6 +59,20 @@
     .header .main
     {
         margin-top: 135px;
+    }
+    .main h1
+    {
+        font-size: 72px;
+    }
+    .tech-title
+    {
+        display: inline-block;
+        margin-left: 8%;
+        vertical-align: middle;
+        margin-top: 10px;
+    }
+    .tech-title p{
+        margin-top: 8px;
     }
 }
 @media (min-width: 1200px) {

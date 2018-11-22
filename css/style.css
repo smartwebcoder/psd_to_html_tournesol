@@ -32,9 +32,12 @@
 
 .header
 {
-    height: 675px;
+    height: 600px;
 }
-
+.header .main
+{
+    margin-top: 50px;
+}
 nav .container
 {
     margin-top: 25px;
@@ -143,16 +146,7 @@ nav ul li a{
     border-radius: 25px;
     padding: 20px 7px 1px 8px;
 }
-.tech-title
-{
-    display: inline-block;
-    margin-left: 8%;
-    vertical-align: middle;
-    margin-top: 12px;
-}
-.tech-title p{
-    margin-top: 8px;
-}
+
 .hr-rate
 {
     padding: 35px 0px;
