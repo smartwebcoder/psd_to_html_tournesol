@@ -54,8 +54,12 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">EN</a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EN</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown09" style="border: transparent;">
+                  <a class="dropdown-item" href="#it" label="EN"><img src='img/en.png'>English</a>  
+                  <a class="dropdown-item" href="#fr" label="FN"><img src='img/fn.png'>France</a>
+                </div>
             </li>
             <li class="nav-item highlights">
               <a class="nav-link js-scroll-trigger" href="#contact">Hire a developer</a>
@@ -475,7 +479,7 @@
         
       </div>
       <div class="col-md-8" style="padding: 5% 0% 5% 2%;">
-          <div class="map-point color-blue" city="Kiev" kind="office" members="20" color="blue" style="margin: 20% 0% 0% 42%; position: absolute;"></div>
+          <div id="default-popover" class="map-point color-blue" city="Kiev" kind="office" members="20" color="blue" style="margin: 20% 0% 0% 42%; position: absolute;"></div>
           <div class="map-point color-yellow" city="Kharkiv" kind="partner" members="75" color="yellow" style="margin: 20% 0% 0% 70%; position: absolute;"></div>
           <div class="map-point color-yellow" city="Dnipropetrovsk" kind="partner" members="20" color="yellow" style="margin: 33% 0% 0% 67%; position: absolute;"></div>
           <div class="map-point color-yellow" city="Zaporizhia" kind="partner" members="28" color="yellow" style="margin: 39% 0% 0% 70%; position: absolute;"></div>
@@ -514,6 +518,7 @@
   </footer>
 
   <script src="vendor/jquery/jquery.min.js"></script>
+  <!-- <script src="vendor/jquery/jquery.slim.min.js"></script> -->
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Plugin JavaScript -->
@@ -543,11 +548,15 @@
           '<div class="font-roboto-regular" style="font-size: 0.75rem; float: right; margin-right: 10px;">'+$(this).attr('members')+' Developers</div>'+
           '</div>'
         })
-        .click(function(e) {
+        .mouseover(function(e) {
             hide($('.office').not(this));
             $(this).popover('show'); /* show popover now it's setup */
         });
       });
+      $('#default-popover').popover('show');
+    });
+    $('.dropdown-item').click(function(){
+      $('#dropdown09').text($(this).attr('label'));
     });
     function hide($obj)
     {

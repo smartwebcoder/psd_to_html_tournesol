@@ -64,6 +64,10 @@ nav .container
     color: #398ACD !important;
     padding: 8px 20px !important;
 }
+nav ul li a.dropdown-item
+{
+    color: black !important;
+}
 nav ul li a{
     color: white !important;
     font-size: 15px;
@@ -253,4 +257,16 @@ nav ul li a{
     top: -38px !important;
     left: -16px !important;
     color: white;
+}
+.nav-item a:hover{
+    text-shadow: 0 0 20px #ffffff;
+    font-weight: bold;
+}
+.dropdown-item
+{
+    padding: 0px;
+}
+.dropdown-item img
+{
+    margin: 5px 10px;
 }
