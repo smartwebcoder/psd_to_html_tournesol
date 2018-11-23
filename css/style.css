@@ -21,6 +21,10 @@
     font-family: 'Roboto-medium';
     src: url('../font/roboto-medium.ttf');
 }
+@font-face {
+    font-family: 'Mistral';
+    src: url('../font/MISTRAL.woff');
+}
 .font-robotoslab-bold{
     font-family: 'Roboto-slab-bold';
 }
@@ -34,7 +38,10 @@
 {
     font-family: 'Roboto-medium';
 }
-
+.font-mistral
+{
+    font-family: 'Mistral';
+}
 .header
 {
     height: 600px;
@@ -70,6 +77,11 @@ nav ul li a{
     box-shadow: 0px 4px 10px #00000042;
     letter-spacing: 1px;
     line-height: 2;
+    -webkit-text-fill-color:azure;
+}
+.btn-hire:hover
+{
+    background-color: #0f964d;
 }
 .btn-hire-white
 {
@@ -189,4 +201,56 @@ nav ul li a{
 {
     margin-top: 20px;
 
+}
+.carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: lightgrey;
+}
+.carousel-indicators li.active{
+    background-color: #24D972;
+}
+.person
+{
+    margin-top: 10px;
+}
+.person-desc
+{
+    margin-bottom: 10px;
+}
+.carousel-indicators {
+    bottom: -5px;
+}
+.rounded
+{
+    border-radius: 10px !important;
+    border-color: transparent;
+}
+.carousel-item
+{
+    height: 300px;
+}
+.map-point{
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+}
+.color-yellow
+{
+    background: #FFC61D;
+}
+.color-blue
+{
+    background: #398AC4;
+}
+.office 
+{
+    width: 165px;
+    height: 80px;
+    border-radius: 3px;
+    box-shadow: 0px 4px 10px #00000030;
+    top: -38px !important;
+    left: -16px !important;
+    color: white;
 }
