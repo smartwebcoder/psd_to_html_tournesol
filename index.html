@@ -562,6 +562,22 @@
     {
       $obj.remove();
     }
+    var open = false;
+    $('.navbar-toggler-icon').click(function(){
+      open = !open;
+      if(open) $('.header').height('952px');
+      else  $('.header').height('675px');
+    })
+    $(window).resize(function(){
+      if ($(window).width() >= 992){	
+        $('.header').height('675px');
+      }	
+      else{
+        console.log('afd');
+        if(open) $('.header').height('952px');
+        else  $('.header').height('675px');
+      }
+    });
   </script>
 </body>
 
