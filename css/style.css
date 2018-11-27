@@ -99,7 +99,6 @@ nav ul li a{
 
 .row-margin
 {
-    margin-top: 50px;
     margin-bottom: 30px;
 }
 
@@ -259,7 +258,6 @@ nav ul li a{
     color: white;
 }
 .nav-item a:hover{
-    text-shadow: 0 0 20px #ffffff;
     font-weight: bold;
 }
 .dropdown-item
@@ -269,4 +267,25 @@ nav ul li a{
 .dropdown-item img
 {
     margin: 5px 10px;
+}
+.tech-img {
+    text-align: center;
+}
+.logo
+{
+    width: 250px;
+}
+.modal-body input, .modal-body select, .modal-body textarea
+{
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+    border: transparent;
+    border-bottom: 2px solid #666666;
+    margin:20px 0px;
+}
+.modal-body input:focus, .modal-body select:focus, .modal-body textarea:focus
+{
+    outline: none;
+    border-bottom: 2px solid #398AC4;
 }

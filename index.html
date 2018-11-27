@@ -29,7 +29,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img  class="logo" src="img/logo.png"></a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="logo" src="img/logo.png"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
           aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -37,19 +37,19 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">Technologies</a>
+              <a class="nav-link js-scroll-trigger" href="#technologies">Technologies</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">How it works</a>
+              <a class="nav-link js-scroll-trigger" href="#howitworks">How it works</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">IT recuitment</a>
+              <a class="nav-link js-scroll-trigger" href="#recruitment">IT recuitment</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">Our magic sauce</a>
+              <a class="nav-link js-scroll-trigger" href="#magicsauce">Our magic sauce</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Testmonials</a>
+              <a class="nav-link js-scroll-trigger" href="#testmonials">Testmonials</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -62,7 +62,7 @@
                 </div>
             </li>
             <li class="nav-item highlights">
-              <a class="nav-link js-scroll-trigger" href="#contact">Hire a developer</a>
+              <a class="nav-link js-scroll-trigger" href="#contact" style="font-weight: bold;" >Hire a developer</a>
             </li>
           </ul>
         </div>
@@ -78,16 +78,16 @@
           <input type="email" class="form-control text-center" style="border-radius: 8px; padding: 18px 10px; margin-top: 15px; font-size: 20px;" placeholder="Enter your mail">
         </div>
         <div class="col-md-3" style="margin: 15px 0px;">
-          <a class="btn btn-hire form-control font-roboto-bold">Hire a developer</a>
+          <a class="btn btn-hire form-control font-roboto-bold" data-toggle="modal" data-target="#myModal">Hire a developer</a>
         </div>
       </div>
     </div>
   </div>
   <div class="container">
     <div class="text-center" style="margin-top: -8px;">
-        <span class="arrow-span"><a href="#bottom-section" id="scroll-down" style="text-decoration: none;"><i class="ti-angle-down"></i></span></a>
+        <span class="arrow-span"><a href="#contact" id="scroll-down" style="text-decoration: none;"><i class="ti-angle-down"></i></span></a>
     </div>
-    <section style="margin-top: 30px;">
+    <section id="technologies" style="padding-top: 30px;">
       <div class="text-center">
         <h4>Developer's technologies</h4>
       </div>
@@ -157,7 +157,7 @@
         <div class="col-md-4 text-center"><a class="btn btn-hire-white"><strong>Hire a developer</strong></a></div>
       </div>
     </section>
-    <section style="margin-top: 50px;">
+    <section id="howitworks" style="padding-top: 50px;">
       <div class="text-center">
         <h4>How it works</h4>
       </div>
@@ -168,7 +168,7 @@
           </div>
           <div class="row-margin">
             <h1 class="font-roboto-bold work-header">Recurit the best</h1>
-            <p class="font-font-roboto-regular work-description" style="margin: 0 -12%;">
+            <p class="font-font-roboto-regular work-description">
               To hire every single
               developers we interview
               on average 12-15<br>
@@ -237,8 +237,8 @@
       </div>
     </div>
   </div>
-  <div class="container">
-    <section style="margin:50px 0px;">
+  <div id="recruitment" class="container">
+    <section style="padding-top: 50px;">
       <div class="text-center">
         <h4 class="font-font-roboto-medium" style="font-size: 30px; margin-bottom: 20px;">IT recruitment</h4>
       </div>
@@ -316,7 +316,7 @@
       </div>
     </section>
   </div>
-  <div class="middle-bar text-white" style="padding: 65px 0px 40px 0px;">
+  <div class="middle-bar text-white" style="margin-top: 50px; padding: 65px 0px 40px 0px;">
     <div class="container">
       <div class="row">
         <div class="offset-md-1 col-md-3 text-center">
@@ -339,8 +339,8 @@
       </div>
     </div>
   </div>
-  <div class="container">
-    <section style="margin: 80px 0px 50px 0px;">
+  <div id="magicsauce" class="container">
+    <section style="padding: 80px 0px 50px 0px;">
       <div class="text-center">
         <h4 class="font-roboto-medium" style="font-size: 30px;">Our magic sauce</h4>
         <p class="font-roboto-regular" style="font-size: 18px; color: #388CC6"><br>
@@ -351,7 +351,7 @@
       <div class="row row-margin">
         <div class="offset-md-1 col-md-3 text-center">
           <img src="img/sau1.png">
-          <p class="font-roboto-regular" style="font-size: 18px; margin: 0 -10%;"><br>
+          <p class="font-roboto-regular" style="font-size: 18px;"><br>
             A commercial contract under French
             law with a French company (contract
             of provision / technical assistance)
@@ -359,7 +359,7 @@
         </div>
         <div class="offset-md-1 col-md-2 text-center">
           <img src="img/sau2.png">
-          <p class="font-roboto-regular" style="font-size: 18px; margin: 0 -12%;"><br>
+          <p class="font-roboto-regular" style="font-size: 18px;"><br>
             Recruitment techniques
             ensuring the quality
             of developers
@@ -416,7 +416,7 @@
     </div>
   </div>
   <div class="container">
-    <div class="row" style="margin: 50px 0px;">
+    <div id="testmonials" class="row" style="padding-top: 50px;">
       <div class="offset-md-1 col-md-5">
         <div>
           <h4 class="font-roboto-medium pull-left" style="font-size: 30px;">What our<br>clients are<br>saying</h4>
@@ -429,7 +429,7 @@
           <img src="img/person3.png" style="margin-left: 37%;">
         </div>
       </div>
-      <div class="offset-md-1 col-md-4">
+      <div id="person" class="offset-md-1 col-md-4">
         <img src="img/person5.png" class="pull-right" style="margin-right: -32px; margin-bottom: -60px;">
         <div style="height: 320px; box-shadow: 0 10px 40px #00000025; border-radius: 25px;" class="text-center">
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
@@ -459,8 +459,8 @@
         
       </div>
     </div>
-    <div id="bottom-section" class="text-center row-margin">
-      <h4 class="font-roboto-bold" style="font-size: 30px; margin-top: 90px;">Do you need developer?</h4>
+    <div id="contact" class="text-center row-margin">
+      <h4 class="font-roboto-bold" style="font-size: 30px; padding-top: 90px;">Do you need developer?</h4>
       <p class="font-roboto-regular" style="font-size: 18px; color: #398AC4">
         High quality standards? Affordable price? Industry best practices?
       </p>
@@ -493,7 +493,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-5">
-            <img src="img/logo.png">
+            <img src="img/logo.png" style="width: 250px;">
             <p class="font-roboto-regular" style="margin-left: 80px; margin-top: 50px; opacity: 0.9; font-size: 12px;">
               All Rights Reserved
             </p>
@@ -516,6 +516,48 @@
         </div>
       </div>
   </footer>
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog text-center">
+      <!-- Modal content-->
+      <div class="modal-content" style="padding: 30px;">
+        <div class="modal-body">
+          <p class="font-roboto-bold"  style="font-size: 25px; color:#398AC4;">HIRE DEVELOPER </p>
+          <input placeholder="Full Name">
+          <input placeholder="E-mail">
+          <input type="number" placeholder="Phone number">
+          <select id="need" name="need">
+            <option value="Html">Html</option>
+            <option value="Css">Css</option>
+            <option value="Javascript">Javascript</option>
+            <option value="Jquery">Jquery</option>
+            <option value="Xhtml">Xhtml</option>
+            <option value="Responsive">Responsive</option>
+            <option value="Php">Php</option>
+            <option value="Java">Java</option>
+            <option value="Python">Python</option>
+            <option value="Ruby on rails">Ruby on rails</option>
+            <option value="Scala">Scala</option>
+            <option value="Mysql">Mysql</option>
+            <option value="iOS">iOS</option>
+            <option value="Objective C">Objective C</option>
+            <option value="Swift">Swift</option>
+            <option value="Android">Android</option>
+            <option value="J2ME">J2ME</option>
+            <option value="C#">C#</option>
+            <option value="Devops">Devops</option>
+            <option value="Linux">Linux</option>
+            <option value="Windows server">Windows server</option>
+            <option value="Debian">Debian</option>
+            <option value="Ubuntu">Ubuntu</option>
+            <option value="Fedora">Fedora</option>
+          </select>
+          <textarea placeholder="Message" style="height: 180px; resize: none;"></textarea><br>
+          <button type="button" class="btn btn-hire font-roboto-bold pull-right" style="padding: 10px 30px;" data-dismiss="modal">Send</button>
+        </div>          
+      </div>
+      
+    </div>
+  </div>
 
   <script src="vendor/jquery/jquery.min.js"></script>
   <!-- <script src="vendor/jquery/jquery.slim.min.js"></script> -->
@@ -528,9 +570,9 @@
   <script src="js/scrolling-nav.js"></script>
   <script>
     $(function() {
-      $('#scroll-down').on('click', function(e) {
+      $('.nav-item a, #scroll-down').on('click', function(e) {
         e.preventDefault();
-        $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 'slow');
+        $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, "linear");
       });
     });
     $(document).ready(function(){
@@ -569,7 +611,7 @@
       else  $('.header').height('675px');
     })
     $(window).resize(function(){
-      if ($(window).width() >= 992){	
+      if ($(window).width() > 992){	
         $('.header').height('675px');
       }	
       else{
