@@ -22,10 +22,7 @@
     {
         height: 675px;
     }
-    #person
-    {
-        padding: 0px 35px;   
-    }
+    
     
 }
   
@@ -62,6 +59,10 @@
     {
         margin-left: 20px;
         
+    }
+    #person
+    {
+        padding: 0px;
     }
 }
   
