@@ -1,3 +1,3 @@
 # Responsive Web Design with Bootstrap
 
-[![Preview1](portfolio.png)
+![Preview1](portfolio.png)
